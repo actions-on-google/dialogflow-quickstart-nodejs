@@ -1,0 +1,45 @@
+{
+  "id": "073df893-c2d0-47f2-a089-224b8ee04322",
+  "name": "Get First Number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "GetFirstNumber-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "816517c1-3a26-4732-93d3-ec6a66087ba0",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "firstNum",
+          "value": "$firstNum",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Get First Number"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

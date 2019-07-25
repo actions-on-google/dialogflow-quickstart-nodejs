@@ -1,0 +1,22 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Alright, I forgot your last result."
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Let's add two new numbers. What is the first number?"
+            }
+          }
+        ]
+      },
+      "userStorage": "{\"data\":{}}"
+    }
+  }
+}

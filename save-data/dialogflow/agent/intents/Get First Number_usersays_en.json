@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cff94b8a-2161-4c49-bc54-3c16b38f10eb",
+    "data": [
+      {
+        "text": "23",
+        "alias": "firstNum",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

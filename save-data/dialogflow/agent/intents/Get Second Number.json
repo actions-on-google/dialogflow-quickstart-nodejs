@@ -1,0 +1,50 @@
+{
+  "id": "ca2cbf4d-07b3-44ac-a3b9-d067a21571c1",
+  "parentId": "073df893-c2d0-47f2-a089-224b8ee04322",
+  "rootParentId": "073df893-c2d0-47f2-a089-224b8ee04322",
+  "name": "Get Second Number",
+  "auto": true,
+  "contexts": [
+    "GetFirstNumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetFirstNumber.GetFirstNumber-custom",
+      "affectedContexts": [
+        {
+          "name": "GetSecondNumber-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7f424ff1-7c5e-42bc-a116-0bad0f112e0e",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "secondNum",
+          "value": "$secondNum",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Get Second Number"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

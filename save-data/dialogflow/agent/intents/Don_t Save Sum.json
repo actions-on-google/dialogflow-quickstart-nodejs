@@ -1,0 +1,32 @@
+{
+  "id": "ea477b99-f780-44b9-8d30-efd5b49a0822",
+  "parentId": "ca2cbf4d-07b3-44ac-a3b9-d067a21571c1",
+  "rootParentId": "073df893-c2d0-47f2-a089-224b8ee04322",
+  "name": "Don\u0027t Save Sum",
+  "auto": true,
+  "contexts": [
+    "GetSecondNumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetFirstNumber.GetFirstNumber-custom.GetSecondNumber-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No problem, see you next time!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

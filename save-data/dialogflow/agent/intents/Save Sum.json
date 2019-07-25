@@ -1,0 +1,32 @@
+{
+  "id": "c6fccd47-1494-4707-a314-8791868a7cca",
+  "parentId": "ca2cbf4d-07b3-44ac-a3b9-d067a21571c1",
+  "rootParentId": "073df893-c2d0-47f2-a089-224b8ee04322",
+  "name": "Save Sum",
+  "auto": true,
+  "contexts": [
+    "GetSecondNumber-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GetFirstNumber.GetFirstNumber-custom.GetSecondNumber-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Save Sum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

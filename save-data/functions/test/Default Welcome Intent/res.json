@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hi! Let's add two numbers."
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "What's the first number?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

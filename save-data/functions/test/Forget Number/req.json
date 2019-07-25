@@ -1,0 +1,116 @@
+{
+  "responseId": "3f0c12b9-1f9a-42bd-826e-8c2a64d9b9e0-b55300fa",
+  "queryResult": {
+    "queryText": "forget the result",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Forget Number",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Forget Number"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG/contexts/google_assistant_input_type_keyboard"
+      }
+    ],
+    "intent": {
+      "name": "projects/save-data-df-js/agent/intents/cec8a081-44db-480e-979a-ab913cf08e14",
+      "displayName": "Forget Number"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-07-23T23:21:00Z",
+        "userStorage": "{\"data\":{\"sum\":\"2345\"}}",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "forget the result"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "forget the result",
+              "textValue": "forget the result"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/save-data-df-js/agent/sessions/ABwppHGLwtXg3hag20biISTjeMSR6L446xb3rj6rySWu2J26yQsSrl9cFW57D6H7reRx_5e2EPXSVEzSxZfG"
+}

@@ -1,0 +1,17 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Alright, I'll store that for next time. See you then."
+            }
+          }
+        ]
+      },
+      "userStorage": "{\"data\":{\"sum\":\"2345\"}}"
+    }
+  }
+}

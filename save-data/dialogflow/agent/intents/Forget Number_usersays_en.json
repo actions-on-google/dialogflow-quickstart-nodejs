@@ -1,0 +1,38 @@
+[
+  {
+    "id": "69062068-d158-4920-876a-2e62fd468abf",
+    "data": [
+      {
+        "text": "clear user storage",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8df27dbc-93f4-433c-ad3c-31ffd89b6f12",
+    "data": [
+      {
+        "text": "forget it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "29511138-c21c-4d73-88b2-74471ebd15c4",
+    "data": [
+      {
+        "text": "forget the result",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

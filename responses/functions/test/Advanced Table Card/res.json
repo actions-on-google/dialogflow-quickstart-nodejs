@@ -1,0 +1,96 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "This is a table with all the possible fields."
+            }
+          },
+          {
+            "tableCard": {
+              "title": "Table Title",
+              "subtitle": "Table Subtitle",
+              "image": {
+                "url": "https://storage.googleapis.com/actionsresources/logo_assistant_2x_64dp.png",
+                "accessibilityText": "Alt Text"
+              },
+              "rows": [
+                {
+                  "cells": [
+                    {
+                      "text": "row 1 item 1"
+                    },
+                    {
+                      "text": "row 1 item 2"
+                    },
+                    {
+                      "text": "row 1 item 3"
+                    }
+                  ],
+                  "dividerAfter": false
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "row 2 item 1"
+                    },
+                    {
+                      "text": "row 2 item 2"
+                    },
+                    {
+                      "text": "row 2 item 3"
+                    }
+                  ],
+                  "dividerAfter": true
+                },
+                {
+                  "cells": [
+                    {
+                      "text": "row 2 item 1"
+                    },
+                    {
+                      "text": "row 2 item 2"
+                    },
+                    {
+                      "text": "row 2 item 3"
+                    }
+                  ]
+                }
+              ],
+              "columnProperties": [
+                {
+                  "header": "header 1",
+                  "horizontalAlignment": "CENTER"
+                },
+                {
+                  "header": "header 2",
+                  "horizontalAlignment": "LEADING"
+                },
+                {
+                  "header": "header 3",
+                  "horizontalAlignment": "TRAILING"
+                }
+              ],
+              "buttons": [
+                {
+                  "title": "Button Text",
+                  "openUrlAction": {
+                    "url": "https://assistant.google.com"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which response would you like to see next?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

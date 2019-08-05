@@ -1,0 +1,36 @@
+{
+  "id": "88904350-193e-4472-a2de-977eb5d9e26e",
+  "parentId": "e01be5bb-f231-4f0e-9f90-8b70b1fee6fc",
+  "rootParentId": "e01be5bb-f231-4f0e-9f90-8b70b1fee6fc",
+  "name": "List - OPTION",
+  "auto": true,
+  "contexts": [
+    "List-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "List.List-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: List - OPTION"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
+}

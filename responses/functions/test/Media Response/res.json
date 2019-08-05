@@ -1,0 +1,46 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "This is a media response example."
+            }
+          },
+          {
+            "mediaResponse": {
+              "mediaType": "AUDIO",
+              "mediaObjects": [
+                {
+                  "contentUrl": "https://storage.googleapis.com/automotive-media/Jazz_In_Paris.mp3",
+                  "description": "A funky Jazz tune",
+                  "icon": {
+                    "url": "https://storage.googleapis.com/automotive-media/album_art.jpg",
+                    "accessibilityText": "Album cover of an ccean view"
+                  },
+                  "name": "Jazz in Paris"
+                }
+              ]
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Basic Card"
+          },
+          {
+            "title": "List"
+          },
+          {
+            "title": "Carousel"
+          },
+          {
+            "title": "Browsing Carousel"
+          }
+        ]
+      }
+    }
+  }
+}

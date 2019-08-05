@@ -1,0 +1,50 @@
+[
+  {
+    "id": "68417b35-9380-493e-a19d-3f403e6ee155",
+    "data": [
+      {
+        "text": "complex table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "64d34404-bca4-4edc-a297-48f6ec2a688b",
+    "data": [
+      {
+        "text": "complex table card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59fa8cb9-5a9a-43e9-a5c1-d001f481bcb4",
+    "data": [
+      {
+        "text": "advanced table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93d5efc2-30da-4f9b-948c-ed430d287703",
+    "data": [
+      {
+        "text": "show me an advanced table cardadvanced table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

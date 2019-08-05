@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bd2f98b0-76e6-4d22-b3d2-12f501419359",
+    "data": [
+      {
+        "text": "show me a table card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "427393dd-ec7d-4c7c-b307-c60174f588b6",
+    "data": [
+      {
+        "text": "show me a table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1bba13c-5f27-492c-9122-3c13f7873696",
+    "data": [
+      {
+        "text": "table cards",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

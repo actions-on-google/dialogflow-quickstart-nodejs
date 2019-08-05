@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b8b89f3d-c52b-4222-8b6f-6e37366c6f03",
+    "data": [
+      {
+        "text": "browsing carousel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b517348-23d1-438f-a63a-eedc78095b14",
+    "data": [
+      {
+        "text": "Show me a browsing carousel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

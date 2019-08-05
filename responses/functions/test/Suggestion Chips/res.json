@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "These are suggestion chips."
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which type of response would you like to see next?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Suggestion 1"
+          },
+          {
+            "title": "Suggestion 2"
+          },
+          {
+            "title": "Suggestion 3"
+          }
+        ],
+        "linkOutSuggestion": {
+          "destinationName": "Suggestion Link",
+          "url": "https://assistant.google.com/"
+        }
+      }
+    }
+  }
+}

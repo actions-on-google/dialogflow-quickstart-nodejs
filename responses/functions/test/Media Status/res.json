@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hope you enjoyed the tune!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which response would you like to see next?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "8a83600c-7698-4b65-849a-bfb0b917f30d",
+    "data": [
+      {
+        "text": "show me suggestion chips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "df84350e-ffc6-4bbd-bf2c-650313608f16",
+    "data": [
+      {
+        "text": "show me suggestions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d143d4ee-f64d-4a20-8a38-660a3646539c",
+    "data": [
+      {
+        "text": "chips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8fb646b-139f-461b-b366-4eea16c6acba",
+    "data": [
+      {
+        "text": "Suggestion chips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

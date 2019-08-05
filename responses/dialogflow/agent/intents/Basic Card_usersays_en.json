@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d2255616-d005-4fb0-a965-c7bd30afc1a4",
+    "data": [
+      {
+        "text": "show me a basic card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fac88c4b-3326-45d3-bcb2-2164705559cf",
+    "data": [
+      {
+        "text": "basic card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

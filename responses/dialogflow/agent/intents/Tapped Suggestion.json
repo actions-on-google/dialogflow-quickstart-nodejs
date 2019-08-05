@@ -1,0 +1,68 @@
+{
+  "id": "72fbb835-0b75-4a79-9751-145061c92a56",
+  "name": "Tapped Suggestion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "You tapped a suggestion chip, matching one of the training phrases in the Tapped Suggestion intent!",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Which type of response would you like to see next?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Basic Card"
+            },
+            {
+              "title": "List"
+            },
+            {
+              "title": "Carousel"
+            },
+            {
+              "title": "Browsing Carousel"
+            },
+            {
+              "title": "Media Response"
+            },
+            {
+              "title": "SSML"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You tapped a suggestion chip, matching one of the training phrases in the Tapped Suggestion intent!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

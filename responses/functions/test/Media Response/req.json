@@ -1,0 +1,128 @@
+{
+  "responseId": "ff7da798-9579-4b55-a752-2bed8f385308-21947381",
+  "queryResult": {
+    "queryText": "media response",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Media Response",
+    "fulfillmentMessages": [
+      {
+        "platform": "ACTIONS_ON_GOOGLE",
+        "simpleResponses": {
+          "simpleResponses": [
+            {
+              "textToSpeech": "Webhook failed for intent: Media Response"
+            }
+          ]
+        }
+      },
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Media Response"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/list-followup"
+      }
+    ],
+    "intent": {
+      "name": "projects/df-responses-kohler/agent/intents/3bff728f-6627-4da5-b40a-59f03ca62ac5",
+      "displayName": "Media Response"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-04T23:56:47Z",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA",
+        "type": "ACTIVE",
+        "conversationToken": "[\"list-followup\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "media response"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "media response",
+              "textValue": "media response"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA"
+}

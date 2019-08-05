@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "<speak>Here are <say-as interpet-as=\"characters\">SSML</say-as> examples.Here is a buzzing fly <audio src=\"https://actions.google.com/sounds/v1/animals/buzzing_fly.ogg\"></audio>and here's a short pause <break time=\"800ms\"/></speak>"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which response would you like to see next?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

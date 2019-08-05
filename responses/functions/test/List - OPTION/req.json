@@ -1,0 +1,131 @@
+{
+  "responseId": "5d7732d1-d22d-4a0e-ad34-8bc0a7fde20c-21947381",
+  "queryResult": {
+    "queryText": "actions_intent_OPTION",
+    "action": "List.List-custom",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: List - OPTION",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: List - OPTION"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/google_assistant_input_type_touch"
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/list-followup",
+        "lifespanCount": 1
+      },
+      {
+        "name": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA/contexts/actions_intent_option",
+        "parameters": {
+          "OPTION": "SELECTION_KEY_GOOGLE_PIXEL",
+          "text": "Google Pixel"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-responses-kohler/agent/intents/88904350-193e-4472-a2de-977eb5d9e26e",
+      "displayName": "List - OPTION"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-04T23:56:32Z",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA",
+        "type": "ACTIVE",
+        "conversationToken": "[\"list-followup\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.OPTION",
+          "rawInputs": [
+            {
+              "inputType": "TOUCH",
+              "query": "Google Pixel"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "OPTION",
+              "textValue": "SELECTION_KEY_GOOGLE_PIXEL"
+            },
+            {
+              "name": "text",
+              "rawText": "Google Pixel",
+              "textValue": "Google Pixel"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/df-responses-kohler/agent/sessions/ABwppHHsebncupHK11oKhsCTgyH96GRNYH-xpeeMTqb-cvOxbd67QenbRlZM4bGAIB8_KXdTfI7-7lYVKN1ovAhCaA"
+}

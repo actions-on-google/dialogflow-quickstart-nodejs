@@ -1,0 +1,36 @@
+{
+  "id": "89289810-95e0-4dfd-a26a-b49a2ac51406",
+  "parentId": "10fd3def-4e35-406d-8091-4a363490ebf5",
+  "rootParentId": "10fd3def-4e35-406d-8091-4a363490ebf5",
+  "name": "Carousel - OPTION",
+  "auto": true,
+  "contexts": [
+    "Carousel-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Carousel.Carousel-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Carousel - OPTION"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
+}

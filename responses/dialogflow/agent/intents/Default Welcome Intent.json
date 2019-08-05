@@ -1,0 +1,76 @@
+{
+  "id": "3dbcc2bc-ca24-42d2-a1a2-1b55baea5475",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Hi! I can show you examples of response types. We recommend trying this sample on a phone so you can see all response types.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Which response type would you like to see?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Basic Card"
+            },
+            {
+              "title": "List"
+            },
+            {
+              "title": "Carousel"
+            },
+            {
+              "title": "Simple Response"
+            },
+            {
+              "title": "SSML"
+            },
+            {
+              "title": "Table Card"
+            },
+            {
+              "title": "Media Response"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi! I can show you examples of response types. Which response type would you like to see?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

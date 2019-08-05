@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "You selected the Google Pixel!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Which response would you like to see next?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

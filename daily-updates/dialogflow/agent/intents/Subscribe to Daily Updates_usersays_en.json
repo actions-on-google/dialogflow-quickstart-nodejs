@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4c9f58bb-87ee-43c8-90ae-8a08bda40253",
+    "data": [
+      {
+        "text": "subscribe to daily updates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73dc300c-68e5-48f1-a46d-7f267282610e",
+    "data": [
+      {
+        "text": "end updates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "900e0a46-9d5e-4fe2-bbb4-e83f7ffbcea2",
+    "data": [
+      {
+        "text": "daily updates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "198b73da-0df0-4a3d-a518-512b1bc82840",
+    "data": [
+      {
+        "text": "Send daily updates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

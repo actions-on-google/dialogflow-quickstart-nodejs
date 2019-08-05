@@ -1,0 +1,101 @@
+{
+  "responseId": "84e943db-b6ac-45b3-a086-e1ed02653291-21947381",
+  "queryResult": {
+    "queryText": "GOOGLE_ASSISTANT_WELCOME",
+    "action": "input.welcome",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "outputContexts": [
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/google_assistant_welcome"
+      }
+    ],
+    "intent": {
+      "name": "projects/kohler-daily-updates/agent/intents/5b02f307-fdb9-45e0-b84e-1a599c7fde12",
+      "displayName": "Default Welcome Intent"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-02T22:47:04Z",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ",
+        "type": "NEW"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.MAIN",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "Talk to my test app"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ"
+}

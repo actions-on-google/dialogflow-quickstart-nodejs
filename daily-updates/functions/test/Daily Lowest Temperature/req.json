@@ -1,0 +1,114 @@
+{
+  "responseId": "8cdca7ea-cb26-4851-a038-328c057fbf6d-21947381",
+  "queryResult": {
+    "queryText": "Hear lowest temperature",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ/contexts/google_assistant_input_type_touch"
+      }
+    ],
+    "intent": {
+      "name": "projects/kohler-daily-updates/agent/intents/6c5d9338-389e-4e22-8f85-72664c4b81b0",
+      "displayName": "Daily Lowest Temperature"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "lastSeen": "2019-08-02T22:47:04Z",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "TOUCH",
+              "query": "Hear lowest temperature"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "Hear lowest temperature",
+              "textValue": "Hear lowest temperature"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          }
+        ]
+      },
+      "isInSandbox": true,
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ],
+      "requestType": "SIMULATOR"
+    }
+  },
+  "session": "projects/kohler-daily-updates/agent/sessions/ABwppHGM7f593iVT-gXhqnzhCNjBaCXy_jN9pmAgEeFs0OJKf-6gG_uXbOrcqs0ao4T36IaqSxKWWxXhAOHFypm5CuQ"
+}

@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hi! Welcome to Lowest Temperature Updates! I can tell you the lowest temperature each day."
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Hear lowest temperature"
+          }
+        ]
+      }
+    }
+  }
+}

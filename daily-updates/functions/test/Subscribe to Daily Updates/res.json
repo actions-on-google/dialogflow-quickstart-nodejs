@@ -1,0 +1,19 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.REGISTER_UPDATE",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.RegisterUpdateValueSpec",
+          "intent": "Daily Lowest Temperature",
+          "triggerContext": {
+            "timeContext": {
+              "frequency": "DAILY"
+            }
+          }
+        }
+      }
+    }
+  }
+}

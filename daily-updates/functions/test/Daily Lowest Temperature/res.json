@@ -1,0 +1,26 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "The lowest temperature for today is 75°F"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "I can send you daily updates with the lowest temperature of the day. Would you like that?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Send daily updates"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "8d01af7a-d313-4274-9768-af3e5d150869",
+    "data": [
+      {
+        "text": "hear the lowest temperature for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5cc6d237-d23f-45a0-973f-e36c01877d84",
+    "data": [
+      {
+        "text": "hear the lowest temperature for the day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f30f517-ac5e-4f1b-8410-3f2663d80164",
+    "data": [
+      {
+        "text": "lowest temperature for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af1cb682-b178-4363-8245-feec5b0a3d22",
+    "data": [
+      {
+        "text": "lowest daily temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2af506ee-e236-4703-8b6b-9c8633548a90",
+    "data": [
+      {
+        "text": "lowest temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15113638-dbd7-4356-af88-627e66b5399a",
+    "data": [
+      {
+        "text": "Hear lowest temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

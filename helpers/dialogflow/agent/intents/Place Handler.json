@@ -1,0 +1,36 @@
+{
+  "id": "4cf9e154-e151-44db-ae79-84d8c5a707de",
+  "parentId": "320dd853-719c-45e4-8ba4-4d5c08247882",
+  "rootParentId": "320dd853-719c-45e4-8ba4-4d5c08247882",
+  "name": "Place Handler",
+  "auto": true,
+  "contexts": [
+    "Place-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Place.Place-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Place Handler"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PLACE"
+    }
+  ]
+}

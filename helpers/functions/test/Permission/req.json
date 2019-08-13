@@ -1,0 +1,112 @@
+{
+  "responseId": "47a047a9-2fe4-4fb6-966c-c52d69cf1e88-712767ed",
+  "queryResult": {
+    "queryText": "Permission",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Permission",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Permission"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/google_assistant_input_type_touch"
+      }
+    ],
+    "intent": {
+      "name": "projects/df-helpers-kohler/agent/intents/d9daf0b9-6568-4310-a8f1-a100ddc98033",
+      "displayName": "Permission"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "TOUCH",
+              "query": "Permission"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "Permission",
+              "textValue": "Permission"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          }
+        ]
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y"
+}

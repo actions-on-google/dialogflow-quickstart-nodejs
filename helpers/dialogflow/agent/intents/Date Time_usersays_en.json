@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4bc7d0e9-8e6d-48e5-863d-dbac247d7de0",
+    "data": [
+      {
+        "text": "datetime",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a9938553-3a52-481b-b82c-198abf90d098",
+    "data": [
+      {
+        "text": "show me the date time helper",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d08a8986-3d26-46d6-a912-3154d3447681",
+    "data": [
+      {
+        "text": "appointments",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad9078d3-ebb2-4180-8182-6482b9f6046d",
+    "data": [
+      {
+        "text": "date time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

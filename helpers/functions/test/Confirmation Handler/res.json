@@ -1,0 +1,32 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Thank you for confirming"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Would you like to try another helper?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "DateTime"
+          },
+          {
+            "title": "Permission"
+          },
+          {
+            "title": "Place"
+          }
+        ]
+      }
+    }
+  }
+}

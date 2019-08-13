@@ -1,0 +1,36 @@
+{
+  "id": "3c145f18-32fe-40aa-842e-b99ab28c3f2a",
+  "parentId": "b901c056-01d2-49b0-8ef0-45467279f4fc",
+  "rootParentId": "b901c056-01d2-49b0-8ef0-45467279f4fc",
+  "name": "Date Time Handler",
+  "auto": true,
+  "contexts": [
+    "DateTime-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DateTime.DateTime-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Date Time Handler"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_DATETIME"
+    }
+  ]
+}

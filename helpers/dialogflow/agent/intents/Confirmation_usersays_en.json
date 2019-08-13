@@ -1,0 +1,38 @@
+[
+  {
+    "id": "9450c334-7b5f-4ba3-a464-563ca1419db2",
+    "data": [
+      {
+        "text": "show me the confirmation intent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "25bc813a-6658-409b-b91b-c50419d87596",
+    "data": [
+      {
+        "text": "confirmation intents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1409671e-16f7-4f6a-9e54-7912ef94e37b",
+    "data": [
+      {
+        "text": "confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

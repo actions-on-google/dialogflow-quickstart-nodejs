@@ -1,0 +1,29 @@
+{
+  "id": "d6ac3830-a742-4e5b-975c-4cf6f066b9d0",
+  "name": "Media Only Intent",
+  "auto": true,
+  "contexts": [
+    "actions_capability_media_response_audio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You\u0027re device has the media capability! What else would you like to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

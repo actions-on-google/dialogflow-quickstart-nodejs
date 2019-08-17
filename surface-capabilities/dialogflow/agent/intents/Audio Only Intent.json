@@ -1,0 +1,29 @@
+{
+  "id": "067d5703-afeb-4f81-bfcd-e29a9adfe90c",
+  "name": "Audio Only Intent",
+  "auto": true,
+  "contexts": [
+    "actions_capability_audio_output"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You\u0027re device has the audio capability! What else would you like to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

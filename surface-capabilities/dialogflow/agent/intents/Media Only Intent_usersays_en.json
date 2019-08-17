@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f548982f-fba0-43c8-a3e6-e5b1d6abc622",
+    "data": [
+      {
+        "text": "Does this device have media response capability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb236732-77eb-462c-aa78-7fea5cccaa69",
+    "data": [
+      {
+        "text": "Does this device have media capability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3cb1055c-6939-46de-b9a8-be1088c06558",
+    "data": [
+      {
+        "text": "Check media capability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

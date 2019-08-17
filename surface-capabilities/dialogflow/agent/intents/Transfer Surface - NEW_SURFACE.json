@@ -1,0 +1,31 @@
+{
+  "id": "9db3798d-bdac-4dc8-a8e7-52349a3af0e8",
+  "name": "Transfer Surface - NEW_SURFACE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Transfer Surface - NEW_SURFACE"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_NEW_SURFACE"
+    }
+  ]
+}

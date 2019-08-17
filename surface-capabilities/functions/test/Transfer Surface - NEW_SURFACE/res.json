@@ -1,0 +1,44 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Welcome to a screen device!"
+            }
+          },
+          {
+            "basicCard": {
+              "title": "You're on a screen device!",
+              "formattedText": "Screen devices support basic cards and other visual responses!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "What else would you like to try?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Current Capabilities"
+          },
+          {
+            "title": "Check Audio Capability"
+          },
+          {
+            "title": "Check Screen Capability"
+          },
+          {
+            "title": "Check Media Capability"
+          },
+          {
+            "title": "Check Web Capability"
+          }
+        ]
+      }
+    }
+  }
+}

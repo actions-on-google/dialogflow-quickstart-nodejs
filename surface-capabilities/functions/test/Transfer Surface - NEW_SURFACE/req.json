@@ -1,0 +1,126 @@
+{
+  "responseId": "94b74485-cd7a-4b3b-b96a-fec15f3a496c-712767ed",
+  "queryResult": {
+    "queryText": "actions_intent_NEW_SURFACE",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Transfer Surface - NEW_SURFACE",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Transfer Surface - NEW_SURFACE"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/google_assistant_input_type_voice"
+      },
+      {
+        "name": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q/contexts/actions_intent_new_surface",
+        "parameters": {
+          "NEW_SURFACE": {
+            "@type": "type.googleapis.com/google.actions.v2.NewSurfaceValue",
+            "status": "OK"
+          },
+          "text": ""
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-surface-caps-kohler/agent/intents/9db3798d-bdac-4dc8-a8e7-52349a3af0e8",
+      "displayName": "Transfer Surface - NEW_SURFACE"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.NEW_SURFACE",
+          "rawInputs": [
+            {
+              "inputType": "VOICE"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "NEW_SURFACE",
+              "extension": {
+                "@type": "type.googleapis.com/google.actions.v2.NewSurfaceValue",
+                "status": "OK"
+              }
+            },
+            {
+              "name": "text"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          }
+        ]
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-surface-caps-kohler/agent/sessions/ABwppHEfQy-JgH7nmiW5gHWiDEyvqNRSPv9zkd3qTVF7F8G8YXJFI2_yal335Co0Z-_N5oUBTmVO_DJUlQONqd5lUgZz-Q"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "8fe67a78-a0ca-4167-8748-8c9fa3b52f2b",
+  "name": "Screen Only Intent",
+  "auto": true,
+  "contexts": [
+    "actions_capability_screen_output"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You\u0027re device has the screen output capability! What else would you like to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

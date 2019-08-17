@@ -1,0 +1,38 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Looks like your current device has the screen output capability, has the audio output capability, has the media capability, has the browser capability, does not have the interactive canvas capability, "
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "What else would you like to try?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Transfer surface"
+          },
+          {
+            "title": "Check Audio Capability"
+          },
+          {
+            "title": "Check Screen Capability"
+          },
+          {
+            "title": "Check Media Capability"
+          },
+          {
+            "title": "Check Web Capability"
+          }
+        ]
+      }
+    }
+  }
+}

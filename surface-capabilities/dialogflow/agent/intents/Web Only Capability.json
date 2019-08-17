@@ -1,0 +1,29 @@
+{
+  "id": "03c3fcc2-2142-4570-81a5-d2ea868242fc",
+  "name": "Web Only Capability",
+  "auto": true,
+  "contexts": [
+    "actions_capability_web_browser"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You\u0027re device has the web browser capability! What else would you like to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

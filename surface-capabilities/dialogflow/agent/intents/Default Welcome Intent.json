@@ -1,0 +1,59 @@
+{
+  "id": "be4e48ee-a6f8-42d6-a6ba-3438bbde681a",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Current capabilities"
+            },
+            {
+              "title": "Transfer surface"
+            },
+            {
+              "title": "Check Audio Capability"
+            },
+            {
+              "title": "Check Screen Capability"
+            },
+            {
+              "title": "Check Media Capability"
+            },
+            {
+              "title": "Check Web Capability"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi! I can help you understand surface capabilities. What would you like to try?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

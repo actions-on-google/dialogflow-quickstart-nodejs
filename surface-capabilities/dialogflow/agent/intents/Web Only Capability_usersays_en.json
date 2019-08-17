@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b9126d08-81c6-4284-8368-c669cd91ca69",
+    "data": [
+      {
+        "text": "Does this device have the web browser capability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b23b9fc9-c785-4db8-8364-8e6f09523a54",
+    "data": [
+      {
+        "text": "Ooes this device have the web capability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1dececa5-66d1-439a-9cc3-3381c11793a5",
+    "data": [
+      {
+        "text": "Check web capability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

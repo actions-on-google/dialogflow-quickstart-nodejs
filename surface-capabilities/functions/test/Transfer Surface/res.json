@@ -1,0 +1,38 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "You're already on a screen device."
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "What else would you like to try?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Current Capabilities"
+          },
+          {
+            "title": "Check Audio Capability"
+          },
+          {
+            "title": "Check Screen Capability"
+          },
+          {
+            "title": "Check Media Capability"
+          },
+          {
+            "title": "Check Web Capability"
+          }
+        ]
+      }
+    }
+  }
+}

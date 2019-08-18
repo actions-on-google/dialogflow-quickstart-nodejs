@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Sorry I didn't catch that. Could you repeat yourself?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

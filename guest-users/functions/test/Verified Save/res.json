@@ -1,0 +1,17 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Alright, I'll remember that you like blue. See you!"
+            }
+          }
+        ]
+      },
+      "userStorage": "{\"data\":{\"favoriteColor\":\"blue\"}}"
+    }
+  }
+}

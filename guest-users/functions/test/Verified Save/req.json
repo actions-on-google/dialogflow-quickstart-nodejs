@@ -1,0 +1,138 @@
+{
+  "responseId": "41beca0a-86f0-43a4-8537-716062a2207d-712767ed",
+  "queryResult": {
+    "queryText": "blue",
+    "parameters": {
+      "color": "blue"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Save Preference",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Save Preference"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_media_response_audio",
+        "parameters": {
+          "color": "blue",
+          "color.original": "blue"
+        }
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_audio_output",
+        "parameters": {
+          "color": "blue",
+          "color.original": "blue"
+        }
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_account_linking",
+        "parameters": {
+          "color": "blue",
+          "color.original": "blue"
+        }
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_web_browser",
+        "parameters": {
+          "color": "blue",
+          "color.original": "blue"
+        }
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_screen_output",
+        "parameters": {
+          "color": "blue",
+          "color.original": "blue"
+        }
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/google_assistant_input_type_keyboard",
+        "parameters": {
+          "color": "blue",
+          "color.original": "blue"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-guests-kohler/agent/intents/3486a76b-5a7e-4872-b392-32f1a80044ad",
+      "displayName": "Save Preference"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.TEXT",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "blue"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "text",
+              "rawText": "blue",
+              "textValue": "blue"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          }
+        ]
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A"
+}

@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hey there! What's your favorite color?"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

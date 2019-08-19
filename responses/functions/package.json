@@ -20,7 +20,7 @@
     "firebase-functions": "^3.1.0"
   },
   "devDependencies": {
-    "ava": "^2.1.0",
+    "ava": "^2.3.0",
     "eslint": "^6.0.1",
     "eslint-config-google": "^0.9.1"
   }

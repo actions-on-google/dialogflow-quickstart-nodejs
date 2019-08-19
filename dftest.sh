@@ -55,6 +55,8 @@ do
     if [[ $all_intents_matched = true ]]; then
         echo "Success: dialog.csv matched all intents"
         echo
+    else
+        exit 1
     fi
     IFS=$OLDIFS
 

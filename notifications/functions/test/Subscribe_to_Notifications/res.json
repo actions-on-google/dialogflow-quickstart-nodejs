@@ -1,0 +1,19 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.PERMISSION",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.PermissionValueSpec",
+          "permissions": [
+            "UPDATE"
+          ],
+          "updatePermissionValueSpec": {
+            "intent": "Notification"
+          }
+        }
+      }
+    }
+  }
+}

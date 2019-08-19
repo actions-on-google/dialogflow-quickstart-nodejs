@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a2c69b71-83ec-4f37-a311-d376af541f1a",
+    "data": [
+      {
+        "text": "Send notifications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "138f0d17-1ec2-4008-a75e-86586c73e296",
+    "data": [
+      {
+        "text": "Send me push notifications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed500230-1261-47ec-aee6-ee4e5be349f6",
+    "data": [
+      {
+        "text": "Send me notifications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

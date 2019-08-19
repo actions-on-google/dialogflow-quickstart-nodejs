@@ -1,0 +1,26 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Hi! Welcome to Push Notifications!"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "I can send you push notifications. Would you like that?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Send notifications"
+          }
+        ]
+      }
+    }
+  }
+}

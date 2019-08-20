@@ -1,0 +1,36 @@
+{
+  "id": "d6fb99b5-c237-48ab-a6ca-db16e616dbbb",
+  "parentId": "d9daf0b9-6568-4310-a8f1-a100ddc98033",
+  "rootParentId": "d9daf0b9-6568-4310-a8f1-a100ddc98033",
+  "name": "Permission Handler",
+  "auto": true,
+  "contexts": [
+    "Permission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Permission.Permission-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Webhook failed for intent: Permission Handler"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PERMISSION"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "systemIntent": {
+        "intent": "actions.intent.PLACE",
+        "data": {
+          "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec",
+          "dialogSpec": {
+            "extension": {
+              "@type": "type.googleapis.com/google.actions.v2.PlaceValueSpec.PlaceDialogSpec",
+              "permissionContext": "To find a location",
+              "requestPrompt": "Where would you like to go?"
+            }
+          }
+        }
+      }
+    }
+  }
+}

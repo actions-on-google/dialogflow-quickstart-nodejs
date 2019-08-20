@@ -1,0 +1,38 @@
+[
+  {
+    "id": "15778d91-c546-48db-b66c-c4c21472234b",
+    "data": [
+      {
+        "text": "place helper",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f9e3690-5241-40e8-8747-32cb5ab7c492",
+    "data": [
+      {
+        "text": "show me the place helper",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ee9c4de8-9176-4ee3-beb2-0c0763ccf370",
+    "data": [
+      {
+        "text": "place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

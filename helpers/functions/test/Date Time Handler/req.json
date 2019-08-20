@@ -1,0 +1,138 @@
+{
+  "responseId": "2b0a039d-b033-4256-bd8a-ebb1f0ad90b4-712767ed",
+  "queryResult": {
+    "queryText": "actions_intent_DATETIME",
+    "action": "DateTime.DateTime-custom",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Date Time Handler",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Date Time Handler"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/datetime-followup",
+        "lifespanCount": 1
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY/contexts/actions_intent_datetime",
+        "parameters": {
+          "DATETIME": "2019-08-14T10:30:00",
+          "text": "1030am"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-helpers-kohler/agent/intents/3c145f18-32fe-40aa-842e-b99ab28c3f2a",
+      "displayName": "Date Time Handler"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY",
+        "type": "ACTIVE",
+        "conversationToken": "[\"datetime-followup\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.DATETIME",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "1030am"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "DATETIME",
+              "datetimeValue": {
+                "date": {
+                  "year": 2019,
+                  "month": 8,
+                  "day": 14
+                },
+                "time": {
+                  "hours": 10,
+                  "minutes": 30
+                }
+              }
+            },
+            {
+              "name": "text",
+              "rawText": "1030am",
+              "textValue": "1030am"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          }
+        ]
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-helpers-kohler/agent/sessions/ABwppHHnU7RSIOU994H8vd2wLYXbnoIAs3rk-4zUeiRAaX3aJ0dp68Y50MgvddE2stYuI6Hlu-MfWO75Gz76EeY"
+}

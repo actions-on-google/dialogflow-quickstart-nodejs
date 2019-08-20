@@ -1,0 +1,144 @@
+{
+  "responseId": "f26883c9-0283-4827-85bf-533f4442b4f9-712767ed",
+  "queryResult": {
+    "queryText": "actions_intent_PERMISSION",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Permission Handler",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Permission Handler"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y/contexts/actions_intent_permission",
+        "parameters": {
+          "PERMISSION": true,
+          "text": "yes"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-helpers-kohler/agent/intents/6475b0ef-dd52-4afa-a1b9-7a19e7e93a80",
+      "displayName": "Permission Handler"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "profile": {
+          "displayName": "Sachit Mishra",
+          "givenName": "Sachit",
+          "familyName": "Mishra"
+        },
+        "permissions": [
+          "NAME",
+          "DEVICE_PRECISE_LOCATION"
+        ],
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.PERMISSION",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "yes"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "PERMISSION",
+              "boolValue": true,
+              "textValue": "true"
+            },
+            {
+              "name": "text",
+              "rawText": "yes",
+              "textValue": "yes"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          }
+        ]
+      },
+      "device": {
+        "location": {
+          "coordinates": {
+            "latitude": 37.42241550000001,
+            "longitude": -122.0840805
+          },
+          "formattedAddress": "Google Building 40 1600 Amphitheatre Parkway, Mountain View, California 94043",
+          "zipCode": "94043",
+          "city": "Mountain View"
+        }
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-helpers-kohler/agent/sessions/ABwppHGu7m_m6bTsKuLb6noyG_o-9BMSf8J9cfY8dpJIPN_hHT79qfqRrZPtyx515K-sl9SU8Jy3auH6pLmy99Y"
+}

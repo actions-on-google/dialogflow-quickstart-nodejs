@@ -1,0 +1,149 @@
+{
+  "responseId": "ce99fd40-b9ed-4151-bc99-f25db9eda8c5-712767ed",
+  "queryResult": {
+    "queryText": "actions_intent_PLACE",
+    "action": "Place.Place-custom",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Place Handler",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Place Handler"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/place-followup",
+        "lifespanCount": 1
+      },
+      {
+        "name": "projects/df-helpers-kohler/agent/sessions/ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA/contexts/actions_intent_place",
+        "parameters": {
+          "PLACE": "KFC, 2523 North Carson Street, Carson City, NV 89706, United States",
+          "text": "yes"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-helpers-kohler/agent/intents/4cf9e154-e151-44db-ae79-84d8c5a707de",
+      "displayName": "Place Handler"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "permissions": [
+          "DEVICE_PRECISE_LOCATION"
+        ],
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHEdLCo3vaqVs-pED_sPQDIUr_Ls5JYICyNks9vKbfUaIF8n4P7fYsKEYSiKvD3Vmnli9deu_uTB8s3nPeA",
+        "type": "ACTIVE",
+        "conversationToken": "[\"place-followup\"]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.PLACE",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "Query handled by Actions on Google"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "PLACE",
+              "placeValue": {
+                "coordinates": {
+                  "latitude": 39.182895,
+                  "longitude": -119.7679113
+                },
+                "formattedAddress": "KFC, 2523 North Carson Street, Carson City, NV 89706, United States",
+                "name": "KFC",
+                "placeId": "ChIJZfBpmMEKmYARFsfc574LgB8"
+              }
+            },
+            {
+              "name": "text",
+              "rawText": "yes",
+              "textValue": "yes"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          }
+        ]
+      },
+      "device": {
+        "location": {
+          "coordinates": {
+            "latitude": 39.2814592,
+            "longitude": -120.12421119999999
+          },
+          "formattedAddress": "Currant Road, Truckee, California 96161",
+          "zipCode": "96161",
+          "city": "Truckee"
+        }
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

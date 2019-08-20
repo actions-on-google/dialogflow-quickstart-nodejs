@@ -1,0 +1,8 @@
+place,Place_usersays_en
+actions_intent_PLACE,Place Handler
+confirmation,Confirmation_usersays_en
+actions_intent_CONFIRMATION,Confirmation Handler
+date time,Date Time_usersays_en
+actions_intent_DATETIME,Date Time Handler
+permission,Permission_usersays_en
+actions_intent_PERMISSION,Permission Handler

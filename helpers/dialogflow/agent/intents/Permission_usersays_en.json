@@ -1,0 +1,86 @@
+[
+  {
+    "id": "08d586e2-ed9b-41a0-a9fc-3c10e3378fd4",
+    "data": [
+      {
+        "text": "show me the permission helper",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb60b7ff-8337-4de5-aea4-8777faff7753",
+    "data": [
+      {
+        "text": "name and location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2e8addad-6cae-4f5c-8563-3f3f367137c5",
+    "data": [
+      {
+        "text": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cf9ceff-75f4-4b84-b2f7-f10e7ad16bba",
+    "data": [
+      {
+        "text": "name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "676cdd74-ff53-44dc-80c1-d4b13968bc9c",
+    "data": [
+      {
+        "text": "user information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ebf5cf29-2b37-4f43-9c1d-2cca790ca8f9",
+    "data": [
+      {
+        "text": "permission intent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05a1821b-b09b-41e8-92e5-a3b00c91f91b",
+    "data": [
+      {
+        "text": "permission",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

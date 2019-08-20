@@ -1,0 +1,32 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": true,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Okay Sachit Mishra, I see you're at Google Building 40 1600 Amphitheatre Parkway, Mountain View, California 94043"
+            }
+          },
+          {
+            "simpleResponse": {
+              "textToSpeech": "Would you like to try another helper?"
+            }
+          }
+        ],
+        "suggestions": [
+          {
+            "title": "Confirmation"
+          },
+          {
+            "title": "DateTime"
+          },
+          {
+            "title": "Place"
+          }
+        ]
+      }
+    }
+  }
+}

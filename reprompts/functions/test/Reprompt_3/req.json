@@ -1,0 +1,109 @@
+{
+  "responseId": "f26a9188-4998-42eb-ac16-d0e6e273b137-712767ed",
+  "queryResult": {
+    "queryText": "actions_intent_NO_INPUT",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Reprompt",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Reprompt"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA/contexts/google_assistant_input_type_voice"
+      },
+      {
+        "name": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA/contexts/actions_intent_no_input",
+        "parameters": {
+          "REPROMPT_COUNT": 2,
+          "IS_FINAL_REPROMPT": true
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/df-reprompts-kohler/agent/intents/75dfd97d-6368-4436-9533-70f05ae76c96",
+      "displayName": "Reprompt"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED"
+      },
+      "conversation": {
+        "conversationId": "ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.NO_INPUT",
+          "rawInputs": [
+            {
+              "inputType": "VOICE"
+            }
+          ],
+          "arguments": [
+            {
+              "name": "REPROMPT_COUNT",
+              "intValue": "2"
+            },
+            {
+              "name": "IS_FINAL_REPROMPT",
+              "boolValue": true
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          }
+        ]
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-reprompts-kohler/agent/sessions/ABwppHFi9Dpwy6KiEtS0UIPDNVfa7mlkrPIEZRlikFkjuN_4SGPixgX8OCatpXu38ln7VG43-nk-7veZWhds3nLljA"
+}

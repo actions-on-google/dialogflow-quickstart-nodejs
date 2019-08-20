@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "Okay let's try this again later."
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "responseId": "8295893a-5a20-4b1f-97df-82a4f62f4906-712767ed",
+  "queryResult": {
+    "queryText": "GOOGLE_ASSISTANT_WELCOME",
+    "action": "input.welcome",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Webhook failed for intent: Default Welcome Intent",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Webhook failed for intent: Default Welcome Intent"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_web_browser"
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/google_assistant_input_type_keyboard"
+      },
+      {
+        "name": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A/contexts/google_assistant_welcome"
+      }
+    ],
+    "intent": {
+      "name": "projects/df-guests-kohler/agent/intents/fa98541e-4c23-46fe-86f7-3bb4f58069d8",
+      "displayName": "Default Welcome Intent"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "user": {
+        "locale": "en-US",
+        "userVerificationStatus": "VERIFIED",
+        "userStorage": "{\"data\":{\"favoriteColor\":\"blue\"}}"
+      },
+      "conversation": {
+        "conversationId": "ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A",
+        "type": "NEW"
+      },
+      "inputs": [
+        {
+          "intent": "actions.intent.MAIN",
+          "rawInputs": [
+            {
+              "inputType": "KEYBOARD",
+              "query": "Talk to my test app"
+            }
+          ]
+        }
+      ],
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          }
+        ]
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/df-guests-kohler/agent/sessions/ABwppHHKDYEEk-cSYty-G83y8F4kV0PPlfuxG_DyvI7F1PlcBibR7CbyifqQz_eh-INDy5PM6pR_k9yCEG_S2A"
+}

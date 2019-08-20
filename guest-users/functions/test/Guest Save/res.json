@@ -1,0 +1,16 @@
+{
+  "payload": {
+    "google": {
+      "expectUserResponse": false,
+      "richResponse": {
+        "items": [
+          {
+            "simpleResponse": {
+              "textToSpeech": "blue is my favorite too! I can't save that right now but you can tell me again next time!"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -13,13 +13,13 @@
 
 'use strict';
 
-// [START imports_df]
+// [START du_imports_df_js]
 const {
   dialogflow,
   RegisterUpdate,
   Suggestions,
 } = require('actions-on-google');
-// [END imports_df]
+// [END du_imports_df_js]
 
 const functions = require('firebase-functions');
 

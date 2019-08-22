@@ -18,13 +18,13 @@ directories.
 
 ### Configuration
 #### Actions Console
-1. From the [Actions on Google Console](https://console.actions.google.com/), New project (this will become your *Project ID*) > **Create project** > under **More options** > **Conversational**
+1. From the [Actions on Google Console](https://console.actions.google.com/), New project (this will become your *Project ID*) > **Create project** > under **More options** > **Conversational**.
 1. From the top menu under **Develop** > **Actions** (left nav) > **Add your first action** > **BUILD** (this will bring you to the Dialogflow console) > Select language and time zone > **CREATE**.
-1. In the Dialogflow console, go to **Settings** ⚙ > **Export and Import** > **Restore from zip**
+1. In the Dialogflow console, go to **Settings** ⚙ > **Export and Import** > **Restore from zip**.
 1. Follow the directions to restore from the `agent.zip` in this sample's `dialogflow` directory.
 
 #### Firebase Deployment
-1. On your local machine, in the `functions` directory, run `npm install`
+1. On your local machine, in the `functions` directory, run `npm install`.
 1. Run `firebase deploy --project {PROJECT_ID}` to deploy the function
     + To find your **Project ID**: In [Dialogflow console](https://console.dialogflow.com/) under **Settings** ⚙ > **General** tab > **Project ID**.
 
@@ -46,8 +46,8 @@ checks a given sample's `dialogflow/test/dialog.csv` file to ensure each turn of
 the expected intent.
 
 ## References & Issues
-+ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/).
-+ For bugs, please report an issue on Github.
++ Questions? Go to [StackOverflow](https://stackoverflow.com/questions/tagged/actions-on-google), [Assistant Developer Community on Reddit](https://www.reddit.com/r/GoogleAssistantDev/) or [Support](https://developers.google.com/actions/support/)
++ For bugs, please report an issue on Github
 + Actions on Google [Documentation](https://developers.google.com/actions/extending-the-assistant)
 + Actions on Google [Codelabs](https://codelabs.developers.google.com/?cat=Assistant)
 + [Webhook Boilerplate Template](https://github.com/actions-on-google/dialogflow-webhook-boilerplate-nodejs) for Actions on Google

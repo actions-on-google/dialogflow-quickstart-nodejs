@@ -29,14 +29,14 @@ app.intent('Default Welcome Intent', (conv) => {
 
 // [START save_data_between_turns_df]
 app.intent('Get First Number', (conv, {firstNum}) => {
-  conv.data.firstNum = firstNum;
+  conv.data.firstNum = parseInt(firstNum);
   conv.ask(`Got it, the first number is ${firstNum}.`);
   conv.ask(`What's the second number?`);
 });
 // [END save_data_between_turns_df]
 
 app.intent('Get Second Number', (conv, {secondNum}) => {
-  const sum = conv.data.firstNum + secondNum;
+  const sum = conv.data.firstNum + parseInt(secondNum);
   conv.data.sum = sum;
   conv.ask(`Got it, the second number is ${secondNum}.` +
     `The sum of both numbers is ${sum}.`);

@@ -45,8 +45,13 @@ app.intent('Get Second Number', (conv, {secondNum}) => {
 
 // [START save_data_across_convs_df]
 app.intent('Save Sum', (conv) => {
-  conv.user.storage.sum = conv.data.sum;
-  conv.close(`Alright, I'll store that for next time. See you then.`);
+  if (conv.user.verification === 'VERIFIED') {
+    conv.user.storage.sum = conv.data.sum;
+    conv.close(`Alright, I'll store that for next time. See you then.`);
+  } else {
+    conv.close(`I can't save that right now, but we can add ` +
+      `new numbers next time!`);
+  }
 });
 // [END save_data_across_convs_df]
 

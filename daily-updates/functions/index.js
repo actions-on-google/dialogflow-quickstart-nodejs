@@ -36,13 +36,13 @@ const DAYS = [
 ];
 
 const lowestTemperatures = {
-  'Monday': '75°F',
-  'Tuesday': '75°F',
-  'Wednesday': '75°F',
-  'Thursday': '75°F',
-  'Friday': '75°F',
-  'Saturday': '75°F',
-  'Sunday': '75°F',
+  'Monday': '75 degrees Fahrenheit',
+  'Tuesday': '75 degrees Fahrenheit',
+  'Wednesday': '75 degrees Fahrenheit',
+  'Thursday': '75 degrees Fahrenheit',
+  'Friday': '75 degrees Fahrenheit',
+  'Saturday': '75 degrees Fahrenheit',
+  'Sunday': '75 degrees Fahrenheit',
 };
 
 app.intent('Default Welcome Intent', (conv) => {

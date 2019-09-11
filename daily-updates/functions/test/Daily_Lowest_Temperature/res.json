@@ -6,7 +6,7 @@
         "items": [
           {
             "simpleResponse": {
-              "textToSpeech": "The lowest temperature for today is 75°F"
+              "textToSpeech": "The lowest temperature for today is 75 degrees Fahrenheit"
             }
           },
           {

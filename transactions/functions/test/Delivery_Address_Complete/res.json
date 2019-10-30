@@ -1,0 +1,30 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Great, got your address! Now say \"confirm transaction\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "confirm transaction"
+            }
+          ]
+        }
+      }
+    },
+    "outputContexts": [
+      {
+        "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/_actions_on_google",
+        "lifespanCount": 99,
+        "parameters": {
+          "data": "{\"location\":{\"coordinates\":{\"latitude\":37.432524,\"longitude\":-122.098545},\"zipCode\":\"94043-1351\",\"city\":\"MOUNTAIN VIEW\",\"postalAddress\":{\"regionCode\":\"US\",\"postalCode\":\"94043-1351\",\"administrativeArea\":\"CA\",\"locality\":\"MOUNTAIN VIEW\",\"addressLines\":[\"1600 AMPHITHEATRE PKWY\"],\"recipients\":[\"John Doe\"]},\"phoneNumber\":\"+1 123-456-7890\"}}"
+        }
+      }
+    ]
+  }

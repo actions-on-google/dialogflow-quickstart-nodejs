@@ -1,0 +1,115 @@
+{
+    "responseId": "4df80094-a393-48cb-9d42-7c62f703deac-594de0a7",
+    "queryResult": {
+      "queryText": "get delivery address",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              ""
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/google_assistant_input_type_touch"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/merchant_payment"
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/acf13a24-d524-4fa1-bef3-90a3c0ea90ae",
+        "displayName": "Delivery Address"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-23T19:49:51Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy",
+          "type": "ACTIVE",
+          "conversationToken": "[\"merchant_payment\"]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.TEXT",
+            "rawInputs": [
+              {
+                "inputType": "TOUCH",
+                "query": "get delivery address"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "text",
+                "rawText": "get delivery address",
+                "textValue": "get delivery address"
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

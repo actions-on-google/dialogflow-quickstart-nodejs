@@ -1,0 +1,13 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "systemIntent": {
+          "intent": "actions.intent.TRANSACTION_REQUIREMENTS_CHECK",
+          "data": {
+            "@type": "type.googleapis.com/google.actions.transactions.v3.TransactionRequirementsCheckSpec"
+          }
+        }
+      }
+    }
+  }

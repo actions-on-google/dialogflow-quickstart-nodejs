@@ -1,0 +1,38 @@
+[
+  {
+    "id": "31caedaf-9b43-40aa-8083-5908013b4a78",
+    "data": [
+      {
+        "text": "merchant payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ef02243-d701-4896-89ea-529d79fdb7e0",
+    "data": [
+      {
+        "text": "transaction with merchant payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd1790d2-a6c7-414e-ad27-7191ffa41a02",
+    "data": [
+      {
+        "text": "check transaction with merchant payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

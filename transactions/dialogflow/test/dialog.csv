@@ -1,0 +1,9 @@
+check transaction with merchant payment,Sign In_usersays_en
+actions_intent_SIGN_IN,Sign In Complete
+check transaction requirements,Transaction Check Merchant_usersays_en
+check transaction with google payment,Transaction Check Google_usersays_en
+actions_intent_TRANSACTION_REQUIREMENTS_CHECK,Transaction Check Complete
+get delivery address,Delivery Address_usersays_en
+actions_intent_DELIVERY_ADDRESS,Delivery Address Complete
+confirm transaction,Transaction Decision_usersays_en
+actions_intent_TRANSACTION_DECISION,Transaction Decision Complete

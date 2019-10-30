@@ -1,0 +1,21 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Looks like you're good to go! Next I'll need your delivery address.Try saying \"get delivery address\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "get delivery address"
+            }
+          ]
+        }
+      }
+    }
+  }

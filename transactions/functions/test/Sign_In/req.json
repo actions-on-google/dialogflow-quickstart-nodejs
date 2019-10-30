@@ -1,0 +1,112 @@
+{
+    "responseId": "1bd9db16-b8d4-4b9e-97b3-4105acafc521-594de0a7",
+    "queryResult": {
+      "queryText": "Transaction with merchant payment",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              ""
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/google_assistant_input_type_keyboard"
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/a472c557-16ac-4610-aa76-38fd306210ec",
+        "displayName": "Sign In"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-23T19:48:51Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy",
+          "type": "ACTIVE",
+          "conversationToken": "[]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.TEXT",
+            "rawInputs": [
+              {
+                "inputType": "KEYBOARD",
+                "query": "Transaction with merchant payment"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "text",
+                "rawText": "Transaction with merchant payment",
+                "textValue": "Transaction with merchant payment"
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

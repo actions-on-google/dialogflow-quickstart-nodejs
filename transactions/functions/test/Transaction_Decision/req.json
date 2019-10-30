@@ -1,0 +1,121 @@
+{
+    "responseId": "115429ed-8ed3-4631-997b-024048f8a518-594de0a7",
+    "queryResult": {
+      "queryText": "confirm transaction",
+      "action": "transaction.decision.action",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Could not confirm transaction",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Could not confirm transaction"
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/google_assistant_input_type_touch"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/_actions_on_google",
+          "lifespanCount": 98,
+          "parameters": {
+            "data": "{\"location\":{\"coordinates\":{\"latitude\":37.432524,\"longitude\":-122.098545},\"zipCode\":\"94043-1351\",\"city\":\"MOUNTAIN VIEW\",\"postalAddress\":{\"regionCode\":\"US\",\"postalCode\":\"94043-1351\",\"administrativeArea\":\"CA\",\"locality\":\"MOUNTAIN VIEW\",\"addressLines\":[\"1600 AMPHITHEATRE PKWY\"],\"recipients\":[\"John Doe\"]},\"phoneNumber\":\"+1 123-456-7890\"}}"
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/b3e24235-436f-45d0-8b27-f5a11934ad75",
+        "displayName": "Transaction Decision"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-23T19:50:03Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy",
+          "type": "ACTIVE",
+          "conversationToken": "[\"_actions_on_google\"]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.TEXT",
+            "rawInputs": [
+              {
+                "inputType": "TOUCH",
+                "query": "confirm transaction"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "text",
+                "rawText": "confirm transaction",
+                "textValue": "confirm transaction"
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            },
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

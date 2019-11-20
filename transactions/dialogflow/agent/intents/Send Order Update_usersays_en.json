@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a868e2e4-cf91-4488-a0f2-6c6feb0f2cb6",
+    "data": [
+      {
+        "text": "send an order update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f7d774c-f49c-4f9c-889f-efb396272a11",
+    "data": [
+      {
+        "text": "send order update",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

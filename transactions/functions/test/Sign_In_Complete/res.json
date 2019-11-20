@@ -1,0 +1,21 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "You must meet all the requirements necessary to make a transaction. Try saying \"check transaction requirements\"."
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "check requirements"
+            }
+          ]
+        }
+      }
+    }
+  }

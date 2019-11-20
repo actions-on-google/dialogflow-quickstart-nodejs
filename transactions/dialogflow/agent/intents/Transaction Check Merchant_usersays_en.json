@@ -1,0 +1,26 @@
+[
+  {
+    "id": "b25c78d5-fd34-429e-a523-b22f53062ff8",
+    "data": [
+      {
+        "text": "transaction requirements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4024247-2f14-4fd5-b9d2-6f1cfacd8f4d",
+    "data": [
+      {
+        "text": "check transaction requirements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

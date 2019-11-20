@@ -1,0 +1,130 @@
+{
+    "responseId": "d2123d8d-3f00-466e-b5a9-1a4ed53a7cb7-594de0a7",
+    "queryResult": {
+      "queryText": "actions_intent_SIGN_IN",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              ""
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/merchant_payment",
+          "lifespanCount": 2
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/google_assistant_input_type_keyboard"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_intent_sign_in",
+          "parameters": {
+            "SIGN_IN": {
+              "@type": "type.googleapis.com/google.actions.v2.SignInValue",
+              "status": "OK"
+            },
+            "text": ""
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/105b925b-b186-4f5d-8bde-a9a782a0fa9f",
+        "displayName": "Sign In Complete"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-23T19:49:18Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy",
+          "type": "ACTIVE",
+          "conversationToken": "[]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.SIGN_IN",
+            "rawInputs": [
+              {
+                "inputType": "KEYBOARD"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "SIGN_IN",
+                "extension": {
+                  "@type": "type.googleapis.com/google.actions.v2.SignInValue",
+                  "status": "OK"
+                }
+              },
+              {
+                "name": "text"
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            },
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

@@ -1,0 +1,40 @@
+{
+  "id": "eaa64723-3e64-44d8-a346-1ae6ebe2d6d9",
+  "name": "Transaction Check Merchant",
+  "auto": true,
+  "contexts": [
+    "merchant_payment"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "transaction.check.action",
+      "affectedContexts": [
+        {
+          "name": "merchant_payment",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Could not request transactions check with merchant payment"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

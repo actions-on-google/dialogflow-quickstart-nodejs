@@ -1,0 +1,525 @@
+{
+    "responseId": "aba44717-4236-4602-af55-e5ae1fc2d97a-594de0a7",
+    "queryResult": {
+      "queryText": "actions_intent_TRANSACTION_DECISION",
+      "action": "transaction.decision.complete",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Failed to get transaction decision",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Failed to get transaction decision"
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/google_assistant_input_type_voice"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/_actions_on_google",
+          "lifespanCount": 97,
+          "parameters": {
+            "data": "{\"location\":{\"coordinates\":{\"latitude\":37.432524,\"longitude\":-122.098545},\"zipCode\":\"94043-1351\",\"city\":\"MOUNTAIN VIEW\",\"postalAddress\":{\"regionCode\":\"US\",\"postalCode\":\"94043-1351\",\"administrativeArea\":\"CA\",\"locality\":\"MOUNTAIN VIEW\",\"addressLines\":[\"1600 AMPHITHEATRE PKWY\"],\"recipients\":[\"John Doe\"]},\"phoneNumber\":\"+1 123-456-7890\"}}"
+          }
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_intent_transaction_decision",
+          "parameters": {
+            "TRANSACTION_DECISION_VALUE": {
+              "@type": "type.googleapis.com/google.actions.transactions.v3.TransactionDecisionValue",
+              "transactionDecision": "ORDER_ACCEPTED",
+              "order": {
+                "createTime": "2019-09-24T18:00:00.877Z",
+                "lastUpdateTime": "2019-09-24T18:00:00.877Z",
+                "merchantOrderId": "ORDER_ID",
+                "userVisibleOrderId": "ORDER_ID",
+                "transactionMerchant": {
+                  "id": "http://www.example.com",
+                  "name": "Example Merchant"
+                },
+                "contents": {
+                  "lineItems": [
+                    {
+                      "id": "LINE_ITEM_ID",
+                      "name": "Pizza",
+                      "description": "A four cheese pizza.",
+                      "priceAttributes": [
+                        {
+                          "type": "REGULAR",
+                          "name": "Line Item Price",
+                          "state": "ACTUAL",
+                          "amount": {
+                            "currencyCode": "USD",
+                            "amountInMicros": 8990000
+                          },
+                          "taxIncluded": true
+                        },
+                        {
+                          "type": "TOTAL",
+                          "name": "Total Price",
+                          "state": "ACTUAL",
+                          "amount": {
+                            "currencyCode": "USD",
+                            "amountInMicros": 9990000
+                          },
+                          "taxIncluded": true
+                        }
+                      ],
+                      "notes": [
+                        "Extra cheese."
+                      ],
+                      "purchase": {
+                        "quantity": 1,
+                        "unitMeasure": {
+                          "measure": 1,
+                          "unit": "POUND"
+                        },
+                        "itemOptions": [
+                          {
+                            "id": "ITEM_OPTION_ID",
+                            "name": "Pepperoni",
+                            "prices": [
+                              {
+                                "type": "REGULAR",
+                                "state": "ACTUAL",
+                                "name": "Item Price",
+                                "amount": {
+                                  "currencyCode": "USD",
+                                  "amountInMicros": 1000000
+                                },
+                                "taxIncluded": true
+                              },
+                              {
+                                "type": "TOTAL",
+                                "name": "Total Price",
+                                "state": "ACTUAL",
+                                "amount": {
+                                  "currencyCode": "USD",
+                                  "amountInMicros": 1000000
+                                },
+                                "taxIncluded": true
+                              }
+                            ],
+                            "note": "Extra pepperoni",
+                            "quantity": 1,
+                            "subOptions": []
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "buyerInfo": {
+                  "email": "janedoe@gmail.com",
+                  "firstName": "Jane",
+                  "lastName": "Doe",
+                  "displayName": "Jane Doe"
+                },
+                "priceAttributes": [
+                  {
+                    "type": "SUBTOTAL",
+                    "name": "Subtotal",
+                    "state": "ESTIMATE",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "amountInMicros": 9990000
+                    },
+                    "taxIncluded": true
+                  },
+                  {
+                    "type": "DELIVERY",
+                    "name": "Delivery",
+                    "state": "ACTUAL",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "amountInMicros": 2000000
+                    },
+                    "taxIncluded": true
+                  },
+                  {
+                    "type": "TAX",
+                    "name": "Tax",
+                    "state": "ESTIMATE",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "amountInMicros": 3780000
+                    },
+                    "taxIncluded": true
+                  },
+                  {
+                    "type": "TOTAL",
+                    "name": "Total Price",
+                    "state": "ESTIMATE",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "amountInMicros": 15770000
+                    },
+                    "taxIncluded": true
+                  }
+                ],
+                "followUpActions": [
+                  {
+                    "type": "VIEW_DETAILS",
+                    "title": "View details",
+                    "openUrlAction": {
+                      "url": "http://example.com"
+                    }
+                  },
+                  {
+                    "type": "CALL",
+                    "title": "Call us",
+                    "openUrlAction": {
+                      "url": "tel:+16501112222"
+                    }
+                  },
+                  {
+                    "type": "EMAIL",
+                    "title": "Email us",
+                    "openUrlAction": {
+                      "url": "mailto:person@example.com"
+                    }
+                  }
+                ],
+                "termsOfServiceUrl": "www.example.com",
+                "note": "Sale event",
+                "promotions": [
+                  {
+                    "coupon": "COUPON_CODE"
+                  }
+                ],
+                "purchase": {
+                  "status": "CREATED",
+                  "userVisibleStatusLabel": "CREATED",
+                  "type": "FOOD",
+                  "returnsInfo": {
+                    "isReturnable": false,
+                    "daysToReturn": 1,
+                    "policyUrl": "http://www.example.com"
+                  },
+                  "fulfillmentInfo": {
+                    "id": "FULFILLMENT_SERVICE_ID",
+                    "fulfillmentType": "DELIVERY",
+                    "expectedFulfillmentTime": {
+                      "timeIso8601": "2019-09-25T18:00:00.877Z"
+                    },
+                    "location": {},
+                    "price": {
+                      "type": "REGULAR",
+                      "name": "Delivery Price",
+                      "state": "ACTUAL",
+                      "amount": {
+                        "currencyCode": "USD",
+                        "amountInMicros": 2000000
+                      },
+                      "taxIncluded": true
+                    },
+                    "fulfillmentContact": {
+                      "email": "johnjohnson@gmail.com",
+                      "firstName": "John",
+                      "lastName": "Johnson",
+                      "displayName": "John Johnson"
+                    }
+                  },
+                  "purchaseLocationType": "ONLINE_PURCHASE"
+                }
+              }
+            },
+            "text": ""
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/fd16d86b-60db-4d19-a683-5b52a22f4795",
+        "displayName": "Transaction Decision Complete"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-23T19:49:32Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy",
+          "type": "ACTIVE",
+          "conversationToken": "[\"merchant_payment\"]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.TRANSACTION_DECISION",
+            "rawInputs": [
+              {
+                "inputType": "KEYBOARD"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "TRANSACTION_DECISION_VALUE",
+                "extension": {
+                  "@type": "type.googleapis.com/google.actions.transactions.v3.TransactionDecisionValue",
+                  "transactionDecision": "ORDER_ACCEPTED",
+                  "order": {
+                    "createTime": "2019-09-24T18:00:00.877Z",
+                    "lastUpdateTime": "2019-09-24T19:00:00.877Z",
+                    "merchantOrderId": "ORDER_ID",
+                    "userVisibleOrderId": "ORDER_ID",
+                    "transactionMerchant": {
+                      "id": "http://www.example.com",
+                      "name": "Example Merchant"
+                    },
+                    "contents": {
+                      "lineItems": [
+                        {
+                          "id": "LINE_ITEM_ID",
+                          "name": "Pizza",
+                          "description": "A four cheese pizza.",
+                          "priceAttributes": [
+                            {
+                              "type": "REGULAR",
+                              "name": "Line Item Price",
+                              "state": "ACTUAL",
+                              "amount": {
+                                "currencyCode": "USD",
+                                "amountInMicros": 8990000
+                              },
+                              "taxIncluded": true
+                            },
+                            {
+                              "type": "TOTAL",
+                              "name": "Total Price",
+                              "state": "ACTUAL",
+                              "amount": {
+                                "currencyCode": "USD",
+                                "amountInMicros": 9990000
+                              },
+                              "taxIncluded": true
+                            }
+                          ],
+                          "notes": [
+                            "Extra cheese."
+                          ],
+                          "purchase": {
+                            "quantity": 1,
+                            "unitMeasure": {
+                              "measure": 1,
+                              "unit": "POUND"
+                            },
+                            "itemOptions": [
+                              {
+                                "id": "ITEM_OPTION_ID",
+                                "name": "Pepperoni",
+                                "prices": [
+                                  {
+                                    "type": "REGULAR",
+                                    "state": "ACTUAL",
+                                    "name": "Item Price",
+                                    "amount": {
+                                      "currencyCode": "USD",
+                                      "amountInMicros": 1000000
+                                    },
+                                    "taxIncluded": true
+                                  },
+                                  {
+                                    "type": "TOTAL",
+                                    "name": "Total Price",
+                                    "state": "ACTUAL",
+                                    "amount": {
+                                      "currencyCode": "USD",
+                                      "amountInMicros": 1000000
+                                    },
+                                    "taxIncluded": true
+                                  }
+                                ],
+                                "note": "Extra pepperoni",
+                                "quantity": 1,
+                                "subOptions": []
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "buyerInfo": {
+                      "email": "janedoe@gmail.com",
+                      "firstName": "Jane",
+                      "lastName": "Doe",
+                      "displayName": "Jane Doe"
+                    },
+                    "priceAttributes": [
+                      {
+                        "type": "SUBTOTAL",
+                        "name": "Subtotal",
+                        "state": "ESTIMATE",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "amountInMicros": 9990000
+                        },
+                        "taxIncluded": true
+                      },
+                      {
+                        "type": "DELIVERY",
+                        "name": "Delivery",
+                        "state": "ACTUAL",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "amountInMicros": 2000000
+                        },
+                        "taxIncluded": true
+                      },
+                      {
+                        "type": "TAX",
+                        "name": "Tax",
+                        "state": "ESTIMATE",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "amountInMicros": 3780000
+                        },
+                        "taxIncluded": true
+                      },
+                      {
+                        "type": "TOTAL",
+                        "name": "Total Price",
+                        "state": "ESTIMATE",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "amountInMicros": 15770000
+                        },
+                        "taxIncluded": true
+                      }
+                    ],
+                    "followUpActions": [
+                      {
+                        "type": "VIEW_DETAILS",
+                        "title": "View details",
+                        "openUrlAction": {
+                          "url": "http://example.com"
+                        }
+                      },
+                      {
+                        "type": "CALL",
+                        "title": "Call us",
+                        "openUrlAction": {
+                          "url": "tel:+16501112222"
+                        }
+                      },
+                      {
+                        "type": "EMAIL",
+                        "title": "Email us",
+                        "openUrlAction": {
+                          "url": "mailto:person@example.com"
+                        }
+                      }
+                    ],
+                    "termsOfServiceUrl": "www.example.com",
+                    "note": "Sale event",
+                    "promotions": [
+                      {
+                        "coupon": "COUPON_CODE"
+                      }
+                    ],
+                    "purchase": {
+                      "status": "CREATED",
+                      "userVisibleStatusLabel": "CREATED",
+                      "type": "FOOD",
+                      "returnsInfo": {
+                        "isReturnable": false,
+                        "daysToReturn": 1,
+                        "policyUrl": "http://www.example.com"
+                      },
+                      "fulfillmentInfo": {
+                        "id": "FULFILLMENT_SERVICE_ID",
+                        "fulfillmentType": "DELIVERY",
+                        "expectedFulfillmentTime": {
+                          "timeIso8601": "2019-09-25T18:00:00.877Z"
+                        },
+                        "location": {},
+                        "price": {
+                          "type": "REGULAR",
+                          "name": "Delivery Price",
+                          "state": "ACTUAL",
+                          "amount": {
+                            "currencyCode": "USD",
+                            "amountInMicros": 2000000
+                          },
+                          "taxIncluded": true
+                        },
+                        "fulfillmentContact": {
+                          "email": "johnjohnson@gmail.com",
+                          "firstName": "John",
+                          "lastName": "Johnson",
+                          "displayName": "John Johnson"
+                        }
+                      },
+                      "purchaseLocationType": "ONLINE_PURCHASE"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "text"
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

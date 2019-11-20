@@ -1,0 +1,276 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Transaction Decision Placeholder."
+              }
+            }
+          ]
+        },
+        "systemIntent": {
+          "intent": "actions.intent.TRANSACTION_DECISION",
+          "data": {
+            "@type": "type.googleapis.com/google.actions.transactions.v3.TransactionDecisionValueSpec",
+            "orderOptions": {
+              "userInfoOptions": {
+                "userInfoProperties": [
+                  "EMAIL"
+                ]
+              }
+            },
+            "paymentParameters": {
+              "merchantPaymentOption": {
+                "defaultMerchantPaymentMethodId": "12345678",
+                "managePaymentMethodUrl": "https://example.com/managePayment",
+                "merchantPaymentMethod": [
+                  {
+                    "paymentMethodDisplayInfo": {
+                      "paymentMethodDisplayName": "VISA **** 1234",
+                      "paymentType": "PAYMENT_CARD"
+                    },
+                    "paymentMethodGroup": "Payment method group",
+                    "paymentMethodId": "12345678",
+                    "paymentMethodStatus": {
+                      "status": "STATUS_OK",
+                      "statusMessage": "Status message"
+                    }
+                  }
+                ]
+              }
+            },
+            "presentationOptions": {
+              "actionDisplayName": "PLACE_ORDER"
+            },
+            "order": {
+              "createTime": "2019-09-24T18:00:00.877Z",
+              "lastUpdateTime": "2019-09-24T18:00:00.877Z",
+              "merchantOrderId": "ORDER_ID",
+              "userVisibleOrderId": "ORDER_ID",
+              "transactionMerchant": {
+                "id": "http://www.example.com",
+                "name": "Example Merchant"
+              },
+              "contents": {
+                "lineItems": [
+                  {
+                    "id": "LINE_ITEM_ID",
+                    "name": "Pizza",
+                    "description": "A four cheese pizza.",
+                    "priceAttributes": [
+                      {
+                        "type": "REGULAR",
+                        "name": "Item Price",
+                        "state": "ACTUAL",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "amountInMicros": 8990000
+                        },
+                        "taxIncluded": true
+                      },
+                      {
+                        "type": "TOTAL",
+                        "name": "Total Price",
+                        "state": "ACTUAL",
+                        "amount": {
+                          "currencyCode": "USD",
+                          "amountInMicros": 9990000
+                        },
+                        "taxIncluded": true
+                      }
+                    ],
+                    "notes": [
+                      "Extra cheese."
+                    ],
+                    "purchase": {
+                      "quantity": 1,
+                      "unitMeasure": {
+                        "measure": 1,
+                        "unit": "POUND"
+                      },
+                      "itemOptions": [
+                        {
+                          "id": "ITEM_OPTION_ID",
+                          "name": "Pepperoni",
+                          "prices": [
+                            {
+                              "type": "REGULAR",
+                              "state": "ACTUAL",
+                              "name": "Item Price",
+                              "amount": {
+                                "currencyCode": "USD",
+                                "amountInMicros": 1000000
+                              },
+                              "taxIncluded": true
+                            },
+                            {
+                              "type": "TOTAL",
+                              "name": "Total Price",
+                              "state": "ACTUAL",
+                              "amount": {
+                                "currencyCode": "USD",
+                                "amountInMicros": 1000000
+                              },
+                              "taxIncluded": true
+                            }
+                          ],
+                          "note": "Extra pepperoni",
+                          "quantity": 1,
+                          "subOptions": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "buyerInfo": {
+                "email": "janedoe@gmail.com",
+                "firstName": "Jane",
+                "lastName": "Doe",
+                "displayName": "Jane Doe"
+              },
+              "priceAttributes": [
+                {
+                  "type": "SUBTOTAL",
+                  "name": "Subtotal",
+                  "state": "ESTIMATE",
+                  "amount": {
+                    "currencyCode": "USD",
+                    "amountInMicros": 9990000
+                  },
+                  "taxIncluded": true
+                },
+                {
+                  "type": "DELIVERY",
+                  "name": "Delivery",
+                  "state": "ACTUAL",
+                  "amount": {
+                    "currencyCode": "USD",
+                    "amountInMicros": 2000000
+                  },
+                  "taxIncluded": true
+                },
+                {
+                  "type": "TAX",
+                  "name": "Tax",
+                  "state": "ESTIMATE",
+                  "amount": {
+                    "currencyCode": "USD",
+                    "amountInMicros": 3780000
+                  },
+                  "taxIncluded": true
+                },
+                {
+                  "type": "TOTAL",
+                  "name": "Total Price",
+                  "state": "ESTIMATE",
+                  "amount": {
+                    "currencyCode": "USD",
+                    "amountInMicros": 15770000
+                  },
+                  "taxIncluded": true
+                }
+              ],
+              "followUpActions": [
+                {
+                  "type": "VIEW_DETAILS",
+                  "title": "View details",
+                  "openUrlAction": {
+                    "url": "http://example.com"
+                  }
+                },
+                {
+                  "type": "CALL",
+                  "title": "Call us",
+                  "openUrlAction": {
+                    "url": "tel:+16501112222"
+                  }
+                },
+                {
+                  "type": "EMAIL",
+                  "title": "Email us",
+                  "openUrlAction": {
+                    "url": "mailto:person@example.com"
+                  }
+                }
+              ],
+              "termsOfServiceUrl": "http://www.example.com",
+              "note": "Sale event",
+              "promotions": [
+                {
+                  "coupon": "COUPON_CODE"
+                }
+              ],
+              "purchase": {
+                "status": "CREATED",
+                "userVisibleStatusLabel": "CREATED",
+                "type": "FOOD",
+                "returnsInfo": {
+                  "isReturnable": false,
+                  "daysToReturn": 1,
+                  "policyUrl": "http://www.example.com"
+                },
+                "fulfillmentInfo": {
+                  "id": "FULFILLMENT_SERVICE_ID",
+                  "fulfillmentType": "DELIVERY",
+                  "expectedFulfillmentTime": {
+                    "timeIso8601": "2019-09-25T18:00:00.877Z"
+                  },
+                  "location": {
+                    "city": "MOUNTAIN VIEW",
+                    "coordinates": {
+                      "latitude": 37.432524,
+                      "longitude": -122.098545
+                    },
+                    "phoneNumber": "+1 123-456-7890",
+                    "postalAddress": {
+                      "addressLines": [
+                        "1600 AMPHITHEATRE PKWY"
+                      ],
+                      "administrativeArea": "CA",
+                      "locality": "MOUNTAIN VIEW",
+                      "postalCode": "94043-1351",
+                      "recipients": [
+                        "John Doe"
+                      ],
+                      "regionCode": "US"
+                    },
+                    "zipCode": "94043-1351"
+                  },
+                  "price": {
+                    "type": "REGULAR",
+                    "name": "Delivery Price",
+                    "state": "ACTUAL",
+                    "amount": {
+                      "currencyCode": "USD",
+                      "amountInMicros": 2000000
+                    },
+                    "taxIncluded": true
+                  },
+                  "fulfillmentContact": {
+                    "email": "johnjohnson@gmail.com",
+                    "firstName": "John",
+                    "lastName": "Johnson",
+                    "displayName": "John Johnson"
+                  }
+                },
+                "purchaseLocationType": "ONLINE_PURCHASE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "outputContexts": [
+      {
+        "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/_actions_on_google",
+        "lifespanCount": 99,
+        "parameters": {
+          "data": "{\"location\":{\"coordinates\":{\"latitude\":37.432524,\"longitude\":-122.098545},\"zipCode\":\"94043-1351\",\"city\":\"MOUNTAIN VIEW\",\"postalAddress\":{\"regionCode\":\"US\",\"postalCode\":\"94043-1351\",\"administrativeArea\":\"CA\",\"locality\":\"MOUNTAIN VIEW\",\"addressLines\":[\"1600 AMPHITHEATRE PKWY\"],\"recipients\":[\"John Doe\"]},\"phoneNumber\":\"+1 123-456-7890\"},\"latestOrderId\":\"ORDER_ID\"}"
+        }
+      }
+    ]
+  }

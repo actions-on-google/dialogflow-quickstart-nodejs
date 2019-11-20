@@ -1,0 +1,132 @@
+{
+    "responseId": "d135addf-1cbf-45e5-a6ab-08968e1abce4-594de0a7",
+    "queryResult": {
+      "queryText": "actions_intent_TRANSACTION_REQUIREMENTS_CHECK",
+      "action": "transaction.check.complete",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Failed to get transaction check results",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Failed to get transaction check results"
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/google_assistant_input_type_keyboard"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/google_payment",
+          "lifespanCount": 1
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM/contexts/actions_intent_transaction_requirements_check",
+          "parameters": {
+            "TRANSACTION_REQUIREMENTS_CHECK_RESULT": {
+              "@type": "type.googleapis.com/google.actions.transactions.v3.TransactionRequirementsCheckResult",
+              "resultType": "CAN_TRANSACT"
+            },
+            "text": ""
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/fd16d86b-60db-4d19-a683-5b52a22f4795",
+        "displayName": "Transaction Check Complete"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-24T17:46:04Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHEcy_1PVo6x3Q6t2mgVbyWgLacuQ08-wyq03EK95xnRfCguYwiuTg2uU98WvkG_gx3yhoa_6__XEdWM",
+          "type": "ACTIVE",
+          "conversationToken": "[\"google_payment\"]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.TRANSACTION_REQUIREMENTS_CHECK",
+            "rawInputs": [
+              {
+                "inputType": "KEYBOARD"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "TRANSACTION_REQUIREMENTS_CHECK_RESULT",
+                "extension": {
+                  "@type": "type.googleapis.com/google.actions.transactions.v3.TransactionRequirementsCheckResult",
+                  "resultType": "CAN_TRANSACT"
+                }
+              },
+              {
+                "name": "text"
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

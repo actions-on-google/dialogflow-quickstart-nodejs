@@ -1,0 +1,162 @@
+{
+    "responseId": "58b0c305-b437-47ac-8593-4fb0122a19e6-594de0a7",
+    "queryResult": {
+      "queryText": "actions_intent_DELIVERY_ADDRESS",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              ""
+            ]
+          }
+        }
+      ],
+      "outputContexts": [
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_media_response_audio"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_audio_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_account_linking"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_screen_output"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_capability_web_browser"
+        },
+        {
+          "name": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy/contexts/actions_intent_delivery_address",
+          "parameters": {
+            "DELIVERY_ADDRESS_VALUE": {
+              "@type": "type.googleapis.com/google.actions.v2.DeliveryAddressValue",
+              "userDecision": "ACCEPTED",
+              "location": {
+                "coordinates": {
+                  "latitude": 37.432524,
+                  "longitude": -122.098545
+                },
+                "zipCode": "94043-1351",
+                "city": "MOUNTAIN VIEW",
+                "postalAddress": {
+                  "regionCode": "US",
+                  "postalCode": "94043-1351",
+                  "administrativeArea": "CA",
+                  "locality": "MOUNTAIN VIEW",
+                  "addressLines": [
+                    "1600 AMPHITHEATRE PKWY"
+                  ],
+                  "recipients": [
+                    "John Doe"
+                  ]
+                },
+                "phoneNumber": "+1 123-456-7890"
+              }
+            },
+            "text": "1600 AMPHITHEATRE PKWY"
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/df-transactions/agent/intents/0be5d130-1760-4355-85e9-4dc01da8bf3c",
+        "displayName": "Delivery Address Complete"
+      },
+      "intentDetectionConfidence": 1,
+      "languageCode": "en"
+    },
+    "originalDetectIntentRequest": {
+      "source": "google",
+      "version": "2",
+      "payload": {
+        "user": {
+          "locale": "en-US",
+          "lastSeen": "2019-09-23T19:49:55Z",
+          "userVerificationStatus": "VERIFIED"
+        },
+        "conversation": {
+          "conversationId": "ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy",
+          "type": "ACTIVE",
+          "conversationToken": "[]"
+        },
+        "inputs": [
+          {
+            "intent": "actions.intent.DELIVERY_ADDRESS",
+            "rawInputs": [
+              {
+                "query": "1600 AMPHITHEATRE PKWY"
+              }
+            ],
+            "arguments": [
+              {
+                "name": "DELIVERY_ADDRESS_VALUE",
+                "extension": {
+                  "@type": "type.googleapis.com/google.actions.v2.DeliveryAddressValue",
+                  "userDecision": "ACCEPTED",
+                  "location": {
+                    "coordinates": {
+                      "latitude": 37.432524,
+                      "longitude": -122.098545
+                    },
+                    "zipCode": "94043-1351",
+                    "city": "MOUNTAIN VIEW",
+                    "postalAddress": {
+                      "regionCode": "US",
+                      "postalCode": "94043-1351",
+                      "administrativeArea": "CA",
+                      "locality": "MOUNTAIN VIEW",
+                      "addressLines": [
+                        "1600 AMPHITHEATRE PKWY"
+                      ],
+                      "recipients": [
+                        "John Doe"
+                      ]
+                    },
+                    "phoneNumber": "+1 123-456-7890"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "surface": {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.ACCOUNT_LINKING"
+            },
+            {
+              "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        },
+        "availableSurfaces": [
+          {
+            "capabilities": [
+              {
+                "name": "actions.capability.WEB_BROWSER"
+              },
+              {
+                "name": "actions.capability.AUDIO_OUTPUT"
+              },
+              {
+                "name": "actions.capability.SCREEN_OUTPUT"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "session": "projects/df-transactions/agent/sessions/ABwppHGYEP2Fj7tJBxoaKMevL6lZ2rs063lOEWhSW5etZWVOoJe7Dzm_bLejRTYIYXL3D78ER7YvA5aN9Wpy"
+  }

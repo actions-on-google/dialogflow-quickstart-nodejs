@@ -1,0 +1,26 @@
+[
+  {
+    "id": "27386920-1b26-4cc7-ae91-ece2af30b9b6",
+    "data": [
+      {
+        "text": "delivery address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "11d60aff-5fc4-4cb8-a27a-d01fbfc555bb",
+    "data": [
+      {
+        "text": "get delivery address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

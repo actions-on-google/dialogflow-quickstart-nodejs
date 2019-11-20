@@ -1,0 +1,224 @@
+{
+    "payload": {
+        "google": {
+          "expectUserResponse": true,
+          "richResponse": {
+                "items": [
+                    {
+                        "simpleResponse": {
+                        "textToSpeech": "Transaction completed! Your order undefined is all set!"
+                        }
+                    },
+                    {
+                        "structuredResponse": {
+                        "orderUpdateV3": {
+                            "order": {
+                            "buyerInfo": {
+                                "displayName": "Jane Doe",
+                                "email": "janedoe@gmail.com",
+                                "firstName": "Jane",
+                                "lastName": "Doe"
+                            },
+                            "contents": {
+                                "lineItems": [
+                                {
+                                    "description": "A four cheese pizza.",
+                                    "id": "LINE_ITEM_ID",
+                                    "name": "Pizza",
+                                    "notes": [
+                                    "Extra cheese."
+                                    ],
+                                    "priceAttributes": [
+                                    {
+                                        "amount": {
+                                        "amountInMicros": 8990000,
+                                        "currencyCode": "USD"
+                                        },
+                                        "name": "Line Item Price",
+                                        "state": "ACTUAL",
+                                        "taxIncluded": true,
+                                        "type": "REGULAR"
+                                    },
+                                    {
+                                        "amount": {
+                                        "amountInMicros": 9990000,
+                                        "currencyCode": "USD"
+                                        },
+                                        "name": "Total Price",
+                                        "state": "ACTUAL",
+                                        "taxIncluded": true,
+                                        "type": "TOTAL"
+                                    }
+                                    ],
+                                    "purchase": {
+                                    "itemOptions": [
+                                        {
+                                        "id": "ITEM_OPTION_ID",
+                                        "name": "Pepperoni",
+                                        "note": "Extra pepperoni",
+                                        "prices": [
+                                            {
+                                            "amount": {
+                                                "amountInMicros": 1000000,
+                                                "currencyCode": "USD"
+                                            },
+                                            "name": "Item Price",
+                                            "state": "ACTUAL",
+                                            "taxIncluded": true,
+                                            "type": "REGULAR"
+                                            },
+                                            {
+                                            "amount": {
+                                                "amountInMicros": 1000000,
+                                                "currencyCode": "USD"
+                                            },
+                                            "name": "Total Price",
+                                            "state": "ACTUAL",
+                                            "taxIncluded": true,
+                                            "type": "TOTAL"
+                                            }
+                                        ],
+                                        "quantity": 1,
+                                        "subOptions": []
+                                        }
+                                    ],
+                                    "quantity": 1,
+                                    "unitMeasure": {
+                                        "measure": 1,
+                                        "unit": "POUND"
+                                    }
+                                    }
+                                }
+                                ]
+                            },
+                            "createTime": "2019-09-24T18:00:00.877Z",
+                            "followUpActions": [
+                                {
+                                "openUrlAction": {
+                                    "url": "http://example.com"
+                                },
+                                "title": "View details",
+                                "type": "VIEW_DETAILS"
+                                },
+                                {
+                                "openUrlAction": {
+                                    "url": "tel:+16501112222"
+                                },
+                                "title": "Call us",
+                                "type": "CALL"
+                                },
+                                {
+                                "openUrlAction": {
+                                    "url": "mailto:person@example.com"
+                                },
+                                "title": "Email us",
+                                "type": "EMAIL"
+                                }
+                            ],
+                            "lastUpdateTime": "2019-09-24T19:00:00.877Z",
+                            "merchantOrderId": "ORDER_ID",
+                            "note": "Sale event",
+                            "priceAttributes": [
+                                {
+                                "amount": {
+                                    "amountInMicros": 9990000,
+                                    "currencyCode": "USD"
+                                },
+                                "name": "Subtotal",
+                                "state": "ESTIMATE",
+                                "taxIncluded": true,
+                                "type": "SUBTOTAL"
+                                },
+                                {
+                                "amount": {
+                                    "amountInMicros": 2000000,
+                                    "currencyCode": "USD"
+                                },
+                                "name": "Delivery",
+                                "state": "ACTUAL",
+                                "taxIncluded": true,
+                                "type": "DELIVERY"
+                                },
+                                {
+                                "amount": {
+                                    "amountInMicros": 3780000,
+                                    "currencyCode": "USD"
+                                },
+                                "name": "Tax",
+                                "state": "ESTIMATE",
+                                "taxIncluded": true,
+                                "type": "TAX"
+                                },
+                                {
+                                "amount": {
+                                    "amountInMicros": 15770000,
+                                    "currencyCode": "USD"
+                                },
+                                "name": "Total Price",
+                                "state": "ESTIMATE",
+                                "taxIncluded": true,
+                                "type": "TOTAL"
+                                }
+                            ],
+                            "promotions": [
+                                {
+                                "coupon": "COUPON_CODE"
+                                }
+                            ],
+                            "purchase": {
+                                "fulfillmentInfo": {
+                                "expectedFulfillmentTime": {
+                                    "timeIso8601": "2019-09-25T18:00:00.877Z"
+                                },
+                                "fulfillmentContact": {
+                                    "displayName": "John Johnson",
+                                    "email": "johnjohnson@gmail.com",
+                                    "firstName": "John",
+                                    "lastName": "Johnson"
+                                },
+                                "fulfillmentType": "DELIVERY",
+                                "id": "FULFILLMENT_SERVICE_ID",
+                                "location": {},
+                                "price": {
+                                    "amount": {
+                                    "amountInMicros": 2000000,
+                                    "currencyCode": "USD"
+                                    },
+                                    "name": "Delivery Price",
+                                    "state": "ACTUAL",
+                                    "taxIncluded": true,
+                                    "type": "REGULAR"
+                                }
+                                },
+                                "purchaseLocationType": "ONLINE_PURCHASE",
+                                "returnsInfo": {
+                                "daysToReturn": 1,
+                                "isReturnable": false,
+                                "policyUrl": "http://www.example.com"
+                                },
+                                "status": "CONFIRMED",
+                                "type": "FOOD",
+                                "userVisibleStatusLabel": "Order confirmed"
+                            },
+                            "termsOfServiceUrl": "www.example.com",
+                            "transactionMerchant": {
+                                "id": "http://www.example.com",
+                                "name": "Example Merchant"
+                            },
+                            "userVisibleOrderId": "ORDER_ID"
+                            },
+                            "reason": "Reason string",
+                            "type": "SNAPSHOT"
+                        }
+                        }
+                    }
+                ],
+                "suggestions": [
+                    {
+                        "title": "send order update"
+                    }
+                ]
+            }
+        }
+      }
+}

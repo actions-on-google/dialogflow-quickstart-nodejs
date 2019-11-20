@@ -1,0 +1,16 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "systemIntent": {
+          "intent": "actions.intent.DELIVERY_ADDRESS",
+          "data": {
+            "@type": "type.googleapis.com/google.actions.v2.DeliveryAddressValueSpec",
+            "addressOptions": {
+              "reason": "To know where to send the order"
+            }
+          }
+        }
+      }
+    }
+  }

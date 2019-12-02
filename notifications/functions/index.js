@@ -81,8 +81,8 @@ const serviceAccount = {
 };
 
 // [START send_notification_df]
-const request = require('request');
 const {google} = require('googleapis');
+const request = require('request');
 
 const jwtClient = new google.auth.JWT(
   serviceAccount.client_email, null, serviceAccount.private_key,
